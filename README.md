@@ -9,10 +9,12 @@ Para usar esse script é necessário que o usuário contrate uma instância API 
 Contrate aqui: https://app.marrera.net (Receba 3 dias de teste)
 
 Envio para Grupo ou número usando graficos e texto:
+
 ![image](https://github.com/MarreraTech/Zabbix/assets/141791017/9d4ccb58-5989-40e7-8669-fdc6ae29b48a)
 
 
 Envio para Grupo ou número usando texto:
+
 ![image](https://github.com/MarreraTech/Zabbix/assets/141791017/8ef211e1-b058-4c6f-8d47-6334dc34239b)
 
 
