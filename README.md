@@ -21,7 +21,9 @@ Envio para Grupo ou número usando texto:
 
 ------- Para usar com o zabbix é necessário que exista o ITEM ID como no exemplo abaixo:
 
-Faça as seguintes configurações:
+
+*Faça as seguintes configurações:
+
 
 Importante: na mensagem deve conter no corpo Item ID: {ITEM.ID1}
 Exemplo.
