@@ -26,13 +26,18 @@ Faça as seguintes configurações:
 Importante: na mensagem deve conter no corpo Item ID: {ITEM.ID1}
 Exemplo.
 ⏰ Inicio do problema às {EVENT.TIME} em {EVENT.DATE}
+
 Host: {HOST.NAME}
+
 Serveridade: {EVENT.SEVERITY}
+
 Último valor: {ITEM.VALUE1}
+
 Item ID: {ITEM.ID1}
 
-Exemplo em imagem:
 
+
+Exemplo em imagem:
 
 ![Configurações Zabbix](https://github.com/MarreraTech/Zabbix/assets/141791017/8cb79c6e-446f-4176-ac1f-c29c6d905667)
 
