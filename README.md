@@ -18,3 +18,23 @@ Envio para Grupo ou número usando texto:
 ![image](https://github.com/MarreraTech/Zabbix/assets/141791017/8ef211e1-b058-4c6f-8d47-6334dc34239b)
 
 
+
+Para usar com o zabbix é necessário que exista o ITEM ID como no exemplo abaixo:
+
+Faça as seguintes configurações:
+
+Importante: na mensagem deve conter no corpo Item ID: {ITEM.ID1}
+Exemplo.
+⏰ Inicio do problema às {EVENT.TIME} em {EVENT.DATE}
+Host: {HOST.NAME}
+Serveridade: {EVENT.SEVERITY}
+Último valor: {ITEM.VALUE1}
+Item ID: {ITEM.ID1}
+
+Exemplo em imagem:
+
+
+![Configurações Zabbix](https://github.com/MarreraTech/Zabbix/assets/141791017/8cb79c6e-446f-4176-ac1f-c29c6d905667)
+
+
+
