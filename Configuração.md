@@ -1,3 +1,5 @@
+![image](https://github.com/MarreraTech/Zabbix/assets/141791017/937ef0f2-c187-4c1f-a95d-8b2c5afabee6)
+
 # Configuração Zabbix + WhatsApp com Imagem 🛠️📱
 
 ## Instalação do Zabbix ✅
