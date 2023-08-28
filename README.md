@@ -1,5 +1,5 @@
 # Envio de alertas zabbix com APi do WhatsApp 
-Script de zabbix para enviar dados e alertas com ou sem imagem para grupos ou números do WhatsApp
+**Script de zabbix para enviar dados e alertas com ou sem imagem para grupos ou números do WhatsApp**
 
 
 ![2 Logo fundo transparente](https://github.com/MarreraTech/Zabbix/assets/141791017/f79c274c-56ca-4d3b-aa1f-8ce416e21dae)
@@ -19,35 +19,6 @@ Envio para Grupo ou número usando texto:
 
 
 
-
-
-
-
-------- Para usar com o zabbix é necessário que exista o ITEM ID como no exemplo abaixo:
-
-
-*Faça as seguintes configurações:
-
-
-Importante: na mensagem deve conter no corpo Item ID: {ITEM.ID1}
-Exemplo.
-
-
-⏰ Inicio do problema às {EVENT.TIME} em {EVENT.DATE}
-
-Host: {HOST.NAME}
-
-Serveridade: {EVENT.SEVERITY}
-
-Último valor: {ITEM.VALUE1}
-
-Item ID: {ITEM.ID1}
-
-
-
-Exemplo em imagem:
-
-![Configurações Zabbix](https://github.com/MarreraTech/Zabbix/assets/141791017/8cb79c6e-446f-4176-ac1f-c29c6d905667)
 
 
 
