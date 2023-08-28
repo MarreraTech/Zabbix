@@ -33,6 +33,8 @@ Acesse a máquina onde o Zabbix está instalado e execute os seguintes passos:
 
 - Realize um teste do script: `./whatsappimages.py "Item ID: 84541" TESTE IDDOGRUPO`
 
+  > Para visualizar os IDs de grupos, você pode acessar [este link](https://app.marrera.net/tools/idgrupos.php).
+
 ## Configuração no Zabbix ⚙️
 
 Dentro do Zabbix, configure um novo tipo de mídia.
