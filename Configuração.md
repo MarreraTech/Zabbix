@@ -44,3 +44,8 @@ Dentro do Zabbix, configure um novo tipo de mídia.
 ## Testando a Ação ✅✔️
 
 - Realize um teste para verificar se tudo está funcionando corretamente.
+
+
+
+![image](https://github.com/MarreraTech/Zabbix/assets/141791017/a91e9672-02e3-4651-8c15-71960390bd2b)
+
