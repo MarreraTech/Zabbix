@@ -6,7 +6,7 @@
 
 Para usar esse script é necessário que o usuário contrate uma instância API do WhatsApp com a Marrera Tech.
 
-Contrate aqui: https://app.marrera.net (Receba 3 dias de teste)
+**Contrate aqui** https://app.marrera.net (Receba 3 dias de teste)
 
 Envio para Grupo ou número usando graficos e texto:
 
