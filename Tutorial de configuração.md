@@ -21,7 +21,7 @@ Acesse a máquina onde o Zabbix está instalado e execute os seguintes passos:
 
 ## Adicionando o Script 📂
 
-- Cole o script na pasta `/usr/lib/zabbix/alertscript`.
+- Cole o script na pasta `/usr/lib/zabbix/alertscripts`.
 - Renomeie o script para incluir a extensão `.py`, por exemplo: `whatsappimages.py`.
 
 ## Permissões e Propriedade 🔒👤
