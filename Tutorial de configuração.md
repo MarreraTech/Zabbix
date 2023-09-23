@@ -15,9 +15,9 @@ Acesse a máquina onde o Zabbix está instalado e execute os seguintes passos:
 
 ## Configuração do Script 📜
 
-1. Copie o script fornecido pelo Marrera.
+1. Copie o script fornecido pela Marrera.
 2. Edite as configurações de acesso para seu Zabbix.
-3. Insira o token disponibilizado pelo Marrera.
+3. Insira o token disponibilizado pela Marrera.
 
 ## Adicionando o Script 📂
 
