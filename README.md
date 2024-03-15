@@ -1,52 +1,39 @@
-![image](https://github.com/MarreraTech/Zabbix/assets/141791017/937ef0f2-c187-4c1f-a95d-8b2c5afabee6)
+# Envio de alertas zabbix com APi do WhatsApp 
+*Script de zabbix para enviar dados e alertas com ou sem imagem para grupos ou números do WhatsApp*
+# Envio de Alertas Zabbix via API do WhatsApp 📡📲
 
-# Configuração Zabbix + WhatsApp com Imagem 🛠️📱
+Este script de Zabbix permite o envio de alertas, dados e imagens para grupos ou números do WhatsApp, proporcionando uma integração eficaz.
 
-## Instalação do Zabbix ✅
+![2 Logo fundo transparente](https://github.com/MarreraTech/Zabbix/assets/141791017/f79c274c-56ca-4d3b-aa1f-8ce416e21dae)
+![Marrera Tech Logo](https://github.com/MarreraTech/Zabbix/assets/141791017/f79c274c-56ca-4d3b-aa1f-8ce416e21dae)
 
-Certifique-se de ter o Zabbix devidamente instalado em seu sistema.
+Para usar esse script é necessário que o usuário contrate uma instância API do WhatsApp com a Marrera Tech.
+Para utilizar este script, é necessário contratar uma instância da API do WhatsApp por meio da Marrera Tech.
 
-## Preparando o Ambiente 🐍
+* **Contrate aqui** https://app.marrera.net (Receba 3 dias de teste)
+🔗 **Contrate agora**: [https://app.marrera.net](https://app.marrera.net) (3 dias de teste gratuito)
 
-Acesse a máquina onde o Zabbix está instalado e execute os seguintes passos:
+1. Envio para Grupo ou número usando graficos e texto:
+## Recursos do Script
 
-- Instale o Python 3: `apt install python3-pip`
-- Instale a biblioteca do Zabbix: `pip3 install pyzabbix`
+![image](https://github.com/MarreraTech/Zabbix/assets/141791017/9d4ccb58-5989-40e7-8669-fdc6ae29b48a)
+### 1. Envio com Gráficos e Texto
 
-## Configuração do Script 📜
+![Exemplo de Envio com Gráficos](https://github.com/MarreraTech/Zabbix/assets/141791017/9d4ccb58-5989-40e7-8669-fdc6ae29b48a)
 
-1. Copie o script fornecido pela Marrera.
-2. Edite as configurações de acesso para seu Zabbix.
-3. Insira o token disponibilizado pela Marrera.
+2. Envio para Grupo ou número usando texto:
 
-## Adicionando o Script 📂
+![image](https://github.com/MarreraTech/Zabbix/assets/141791017/8ef211e1-b058-4c6f-8d47-6334dc34239b)
 
-- Cole o script na pasta `/usr/lib/zabbix/alertscripts`.
-- Renomeie o script para incluir a extensão `.py`, por exemplo: `whatsappimages.py`.
+Este recurso permite o envio de informações detalhadas acompanhadas de gráficos para grupos ou números específicos no WhatsApp.
 
-## Permissões e Propriedade 🔒👤
+### 2. Envio de Mensagens com Texto
 
-- Dê as permissões adequadas ao script: `chmod +x whatsappimages.py`
-- Configure a propriedade correta: `chown zabbix:zabbix whatsappimages.py`
+![Exemplo de Envio de Mensagem](https://github.com/MarreraTech/Zabbix/assets/141791017/8ef211e1-b058-4c6f-8d47-6334dc34239b)
 
-## Testando o Script 🧪
+Além do envio de gráficos, é possível enviar mensagens com texto simples, proporcionando uma comunicação rápida e eficiente.
 
-- Realize um teste do script: `./whatsappimages.py "Item ID: 84541" TESTE IDDOGRUPO`
+Experimente essa integração poderosa para manter-se informado de maneira instantânea!
 
-  > Para visualizar os IDs de grupos, você pode acessar [este link](https://app.marrera.net/tools/idgrupos.php).
-
-## Configuração no Zabbix ⚙️
-
-Dentro do Zabbix, configure um novo tipo de mídia.
-
-## Configuração da Ação 📢
-
-- Crie uma nova ação, garantindo que contenha a variável `{ITEM.VALUE1}`. Isso será responsável pelo envio da imagem.
-
-## Testando a Ação ✅✔️
-
-- Realize um teste para verificar se tudo está funcionando corretamente.
-
-
-
-![image](https://github.com/MarreraTech/Zabbix/assets/141791017/a91e9672-02e3-4651-8c15-71960390bd2b)
+---
+*Nota: As imagens acima são ilustrativas e podem variar de acordo com a configuração.*
