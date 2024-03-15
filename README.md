@@ -1,5 +1,3 @@
-# Envio de alertas zabbix com APi do WhatsApp 
-*Script de zabbix para enviar dados e alertas com ou sem imagem para grupos ou números do WhatsApp*
 # Envio de Alertas Zabbix via API do WhatsApp 📡📲
 
 Este script de Zabbix permite o envio de alertas, dados e imagens para grupos ou números do WhatsApp, proporcionando uma integração eficaz.
