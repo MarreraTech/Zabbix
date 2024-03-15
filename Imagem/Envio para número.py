@@ -64,17 +64,16 @@ if item_id:
         image_data = getImage(item_id, item_name)
         base64_image = base64.b64encode(image_data).decode('utf-8')
 
-        api_url = f"https://apizap.marrera.net/rest/sendMessage/fileBase64/?id={TOKEN}"
+        api_url = f"https://apiwt.marrera.net/send-media/id={TOKEN}"
 
         payload = {
-            "receiver": chat_id,
-            "message": {
-                "base64": base64_image,
-                "mimetype": "image/png",
-                "originalname": "NOTIFICACAO",
-                "caption": f"{titulo}\n{mensagem}"
-            }
-        }
+            "number": chat_id,
+            "mediaMessage": {
+                "mediatype": "image",
+                "caption": f"{titulo}\n{mensagem}",
+                "media": base64_image
+            }
+        }
 
         headers = {
             "Content-Type": "application/json"
