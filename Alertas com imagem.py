@@ -1,7 +1,3 @@
-# Esse script lhe permite integrar o zabbix com o whatsapp
-# Na configuração do zabbix você vai usar tanto o número quanto o id do grupo pois não muda nada. 
-
-
 #!/usr/bin/python3
 import requests
 import json
@@ -75,8 +71,8 @@ if item_id:
                 "mediatype": "image",
                 "caption": f"{titulo}\n{mensagem}",
                 "media": base64_image
-            }
-        }
+            }
+       }
 
         headers = {
             "Content-Type": "application/json"
